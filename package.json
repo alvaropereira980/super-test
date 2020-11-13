@@ -1,0 +1,17 @@
+{
+  "name": "super-test-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/tests/api.test.js --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.1.3",
+    "morgan": "^1.10.0",
+    "supertest": "^4.0.2"
+  }
+}
